@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<AssemblyName>MarleyDJ.Common</AssemblyName>
+
+		<PackageId>MarleyDJ.Common</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>davidjamesmarley</Authors>
+		<Company>MarleyDJ</Company>
+		<PackageDescription>MarleyDJ.Common PowerShell Module</PackageDescription>
+		<RepositoryUrl>https://github.com/davidjamesmarley/powershell-modules</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="PowerShellStandard.Library" Version="5.1.1">
+			<PrivateAssets>All</PrivateAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>
